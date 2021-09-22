@@ -28,6 +28,7 @@ int Integer::fib(){
 	return fib_recursive(val);
 }
 
+// I use the Fibonacci sequence 1, 1, 2, 3, ... (not starting with 0)
 int Integer::fib_recursive(int n){
 	if (n <= 1){
 		return 1; 
